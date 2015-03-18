@@ -1,0 +1,1 @@
+This is a text-based game engine featuring double-buffered ASCII graphics.

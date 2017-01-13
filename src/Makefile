@@ -2,7 +2,7 @@
 
 EDITOROBJS = editor.o level.o
 GAMEOBJS = engine.o level.o avatar.o npc.o
-FBCOPTS = -arch 386 -g -exx -fpmode PRECISE
+FBCOPTS = -g -exx -fpmode PRECISE
 
 game:$(GAMEOBJS)
 	fbc $(FBCOPTS) -x game -m engine $(GAMEOBJS)
